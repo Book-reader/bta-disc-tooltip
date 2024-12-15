@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "disctooltip",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Disc Tooltip",
+  "description": "Adds song name and author to music disc tooltips",
   "authors": [
-    "Turnip Labs"
+    "Book-reader"
   ],
   "contact": {
     "homepage": "",
@@ -17,22 +17,8 @@
   "license": "CC0-1.0",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-			"turniplabs.examplemod.ExampleMod"
-    ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
-		]
-	},
   "mixins": [
-      "examplemod.mixins.json"
+      "disctooltip.mixins.json"
   ],
 
   "depends": {
